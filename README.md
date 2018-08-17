@@ -14,6 +14,14 @@ A `src`-based layout ([ionelmc][ionelmc-layout], [hynek][hynek-layout]), distrib
 [hynek-layout]: https://hynek.me/articles/testing-packaging/
 [pytest-layout]: https://docs.pytest.org/en/latest/goodpractices.html#choosing-a-test-layout-import-rules
 
-## .gitignore
+## `.gitignore`
 
 Hit-up [gitignore.io](https://www.gitignore.io/api/python).
+
+## `setup.py`
+
+Partially skeleton-ed from [kenneithreitz][kenneithreitz-setup].
+Uses [setuptools_scm][setuptools_scm] for version management.
+
+[kenneithreitz-setup]: https://github.com/kennethreitz/setup.py
+[setuptools_scm]: https://github.com/pypa/setuptools_scm
