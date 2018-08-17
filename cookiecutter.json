@@ -5,5 +5,8 @@
 
   "full_name": "",
   "email": "",
-  "github_org": ""
+  "github_org": "",
+  "origin_url": "https://github.com/{{cookiecutter.github_org}}/{{cookiecutter.project_slug}}",
+
+  "git_init": ["yes", "no"]
 }

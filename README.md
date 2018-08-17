@@ -25,3 +25,7 @@ Uses [setuptools_scm][setuptools_scm] for version management.
 
 [kenneithreitz-setup]: https://github.com/kennethreitz/setup.py
 [setuptools_scm]: https://github.com/pypa/setuptools_scm
+
+## `git`
+
+Initialize repo via git and add a standard origin url.
