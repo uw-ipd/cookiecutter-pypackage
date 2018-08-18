@@ -28,4 +28,15 @@ Uses [setuptools_scm][setuptools_scm] for version management.
 
 ## `git`
 
-Initialize repo via git and add a standard origin url.
+Initialize repo via git and add an origin remote in [post_gen_project](./hooks/post_gen_project.py).
+
+## Style
+
+Enforce an uncompromising style via [black][black].
+Lint via [flake8][flake8] with [bugbear][flake8-bugbear].
+Enforce style via [pre-commit][pre-commit].
+
+[black]: https://black.readthedocs.io/en/stable/
+[flake8]: http://flake8.pycqa.org/en/latest/
+[flake8-bugbear]: https://github.com/PyCQA/flake8-bugbear
+[pre-commit]: https://pre-commit.com/

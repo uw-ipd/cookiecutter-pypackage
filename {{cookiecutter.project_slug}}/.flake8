@@ -1,0 +1,14 @@
+[flake8]
+
+# Black-compatible config from
+# http://pep8.readthedocs.io/en/latest/intro.html#error-codes
+# E203 - operator whitespace, error in pycodestyle
+#        https://github.com/PyCQA/pycodestyle/issues/373
+# E266 - Comment leading '###'
+# E503 - Break before binary operator
+
+ignore = E203, E266, W503
+
+max-line-length = 88
+max-complexity = 18
+select = B,C,E,F,W,T4
